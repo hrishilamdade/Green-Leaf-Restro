@@ -128,7 +128,7 @@ a{
     font-weight: 500px;
     font-weight: bolder;
 }
-.banner-heading-1{
+.banner-heading-1 a{
     font-family: 'Allura', cursive;
     font-size: 34px;
     font-weight:lighter;
@@ -244,7 +244,7 @@ footer{
     margin-top: 40px;
     list-style: none;
 }
-.mid-1-list > i{
+.mid-1-list  i{
     color: #12a84e;
     margin-right: 20px;
 }
