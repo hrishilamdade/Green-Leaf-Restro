@@ -335,7 +335,7 @@ h2{
 @media screen and (max-width:400px) {
     .banner{
         background-size:cover;
-        width: max-content;
+        width: 220%;
     }
     .blogs{
         width: 100vw;
@@ -345,7 +345,7 @@ h2{
         width: 200%;
     }
     footer{
-        width: 224.3%;
+        width: 220%;
         margin: 0px;
     }
 }  
