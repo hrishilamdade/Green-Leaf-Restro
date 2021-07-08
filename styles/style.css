@@ -36,7 +36,6 @@ a{
 .upper-nav-list{
     display: flex;
     list-style: none;
-    height: 16px;
     font-size: 14px;
     justify-content: center;
     align-items: center;
@@ -44,7 +43,6 @@ a{
 .upper-nav-list-2{
     display: flex;
     list-style: none;
-    height: 16px;
     font-size: 14px;
     justify-content: center;
     align-items: center;
@@ -303,3 +301,51 @@ h2{
     align-items: center;
     text-align: center;
 }
+@media screen and (max-width:1005px) {
+    .upper-nav{
+        flex-direction: column;
+    }
+    .lower-nav{
+        flex-direction: column;
+    }
+    .blog > img{
+        height:100%;
+        width: 40%;
+    }
+    footer{
+        justify-content: center;
+        align-items: center;
+    }
+    .upper-footer{
+        flex-direction: column;
+    }
+    .middle-footer{
+        flex-direction: column;
+    }
+    .middle-footer-list,
+    .middle-footer-list-2,
+    .middle-footer-list-3{
+        padding: 0px;
+        margin: 0px;
+    }
+}
+@media screen and (max-width:690px){
+    
+}
+@media screen and (max-width:400px) {
+    .banner{
+        background-size:cover;
+        width: max-content;
+    }
+    .blogs{
+        width: 100vw;
+        margin: 20px;
+    }
+    .blog{
+        width: 200%;
+    }
+    footer{
+        width: 224.3%;
+        margin: 0px;
+    }
+}  
